@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ipraktikum-mjml2json/static/css/main.dd06b2c5.chunk.css",
+    "main.js": "/ipraktikum-mjml2json/static/js/main.453c46c2.chunk.js",
+    "main.js.map": "/ipraktikum-mjml2json/static/js/main.453c46c2.chunk.js.map",
+    "runtime-main.js": "/ipraktikum-mjml2json/static/js/runtime-main.f15775b4.js",
+    "runtime-main.js.map": "/ipraktikum-mjml2json/static/js/runtime-main.f15775b4.js.map",
+    "static/css/2.a95be28f.chunk.css": "/ipraktikum-mjml2json/static/css/2.a95be28f.chunk.css",
+    "static/js/2.3ee09492.chunk.js": "/ipraktikum-mjml2json/static/js/2.3ee09492.chunk.js",
+    "static/js/2.3ee09492.chunk.js.map": "/ipraktikum-mjml2json/static/js/2.3ee09492.chunk.js.map",
+    "index.html": "/ipraktikum-mjml2json/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/ipraktikum-mjml2json/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.dd06b2c5.chunk.css.map": "/ipraktikum-mjml2json/static/css/main.dd06b2c5.chunk.css.map",
+    "static/js/2.3ee09492.chunk.js.LICENSE.txt": "/ipraktikum-mjml2json/static/js/2.3ee09492.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f15775b4.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.3ee09492.chunk.js",
+    "static/css/main.dd06b2c5.chunk.css",
+    "static/js/main.453c46c2.chunk.js"
+  ]
+}
