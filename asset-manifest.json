@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ipraktikum-mjml2json/static/css/main.dd06b2c5.chunk.css",
-    "main.js": "/ipraktikum-mjml2json/static/js/main.9dfd565a.chunk.js",
-    "main.js.map": "/ipraktikum-mjml2json/static/js/main.9dfd565a.chunk.js.map",
+    "main.js": "/ipraktikum-mjml2json/static/js/main.776cc772.chunk.js",
+    "main.js.map": "/ipraktikum-mjml2json/static/js/main.776cc772.chunk.js.map",
     "runtime-main.js": "/ipraktikum-mjml2json/static/js/runtime-main.f15775b4.js",
     "runtime-main.js.map": "/ipraktikum-mjml2json/static/js/runtime-main.f15775b4.js.map",
     "static/css/2.a95be28f.chunk.css": "/ipraktikum-mjml2json/static/css/2.a95be28f.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.3ee09492.chunk.js",
     "static/css/main.dd06b2c5.chunk.css",
-    "static/js/main.9dfd565a.chunk.js"
+    "static/js/main.776cc772.chunk.js"
   ]
 }
