@@ -37,14 +37,14 @@ function convertNode({ tagName, attributes, children, content }) {
         case 'letter-spacing':
         case 'line-height':
           if (value.includes('px')) {
-            param.value = Number(value.replace('px', ''));
+            param.floatValue = Number(value.replace('px', ''));
             param.valueSuffix = 'px';
           } else if (value.includes('%')) {
-            param.value = Number(value.replace('%', ''));
+            param.floatValue = Number(value.replace('%', ''));
             param.valueSuffix = '%';
           }
 
-          param.changeable = 'number';
+          param.changeable = 'Float';
           break;
 
         case 'text-align':
@@ -55,8 +55,8 @@ function convertNode({ tagName, attributes, children, content }) {
 
         case 'color':
         case 'background-color':
-          param.changeable = 'color';
-          param.value = value;
+          param.changeable = 'Color';
+          param.colorValue = value;
           break;
 
         default:
