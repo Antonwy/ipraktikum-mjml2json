@@ -49,8 +49,8 @@ function convertNode({ tagName, attributes, children, content }) {
 
         case 'text-align':
         case 'align':
-          param.changeable = 'alignEnum';
-          param.value = value;
+          param.changeable = 'Align';
+          param.alignValue = value;
           break;
 
         case 'color':
