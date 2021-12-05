@@ -35,7 +35,6 @@ function convertNode({ tagName, attributes, children, content }) {
         case 'height':
         case 'inner-padding':
         case 'letter-spacing':
-        case 'line-height':
           if (value.includes('px')) {
             param.floatValue = Number(value.replace('px', ''));
             param.valueSuffix = 'px';
