@@ -79,6 +79,12 @@ function addContent(json, content) {
     case 'mj-text':
       json.textContent = content;
       break;
+    case 'mj-column':
+      json.elementComposition = 'vertical';
+      break;
+    case 'mj-row':
+      json.elementComposition = 'horizontal';
+      break;
     default:
       return;
   }
@@ -92,6 +98,10 @@ function toContentType(tag) {
       return 'image';
     case 'mj-button':
       return 'button';
+    case 'mj-column':
+      return 'composit';
+    case 'mj-row':
+      return 'composit';
     default:
       return 'none';
   }
