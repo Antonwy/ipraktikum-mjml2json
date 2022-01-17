@@ -32,9 +32,12 @@ function convertNode({ tagName, attributes, children, content }) {
         case 'font-size':
         case 'width':
         case 'border-radius':
+        case 'border-width':
         case 'height':
         case 'inner-padding':
         case 'letter-spacing':
+        case 'background-width':
+        case 'background-height':
           if (value.includes('px')) {
             param.floatValue = Number(value.replace('px', ''));
             param.valueSuffix = 'px';
@@ -52,8 +55,14 @@ function convertNode({ tagName, attributes, children, content }) {
           param.alignValue = value;
           break;
 
+        case 'vertical-align':
+          param.changeable = 'VerticalAlign';
+          param.alignValue = value;
+          break;
+
         case 'color':
         case 'background-color':
+        case 'border-color':
           param.changeable = 'Color';
           param.colorValue = value;
           break;
@@ -102,6 +111,12 @@ function toContentType(tag) {
       return 'composit';
     case 'mj-row':
       return 'composit';
+    case 'mj-divider':
+      return 'divider';
+    case 'mj-spacer':
+      return 'spacer';
+    case 'mj-hero':
+      return 'hero';
     default:
       return 'none';
   }
